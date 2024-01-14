@@ -3,7 +3,7 @@ for(let i = 0 ; i < 16; i++){
 const divElement = document.createElement("div"); 
 
 bodyE.appendChild(divElement);
-bodyE.style.backgroundColor = 'black';
+divElement.style.backgroundColor = 'black';
 
 }
 
