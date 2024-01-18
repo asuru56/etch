@@ -7,6 +7,7 @@ const resetButton = document.getElementById('resetButton');
 resetButton.addEventListener('click', function () {
     let k = prompt('Enter the number of squares per side (maximum 100):');
     if (k < 100) {
+        location.reload();
         for (let i = 0; i < k; i++) {
             // Create and append grid elements to the .bottom container
             const bottomElement = document.createElement('div');
