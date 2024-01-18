@@ -1,0 +1,12 @@
+body{
+    display: flex ; 
+    
+}
+.grid{
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+.bottom{
+    display: flex;
+}
